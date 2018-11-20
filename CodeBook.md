@@ -136,7 +136,7 @@ The combination of group_by() and summarise_all() from the dplyr package gives t
 
 The resulting data frame **tidy_dataset** is written to disk through
 
-        write.table(tidy_dataset, file = "tidy_dataset.txt", col.names = TRUE)
+        write.table(tidy_dataset, file = "tidy_dataset.txt", col.names = TRUE, row.names = FALSE)
 
 **tidy_dataset** contains:
 

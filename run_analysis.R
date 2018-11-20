@@ -95,7 +95,7 @@ tidy_dataset <- partial_dataset %>%
         summarise_all(funs(groupmean = mean))
 
 # Write the result to the file tidy_dataset.txt, including column headers
-write.table(tidy_dataset, file = "tidy_dataset.txt", col.names = TRUE)
+write.table(tidy_dataset, file = "tidy_dataset.txt", col.names = TRUE, row.names = FALSE)
 # To check the result, invoke
 # test_dataset <- read.table("tidy_dataset.txt", header = TRUE)
 # View(test_dataset)
