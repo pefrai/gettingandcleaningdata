@@ -20,7 +20,7 @@ Each folder contains 3 files
 * y_\<folder\>.txt  
 * subject_\<folder\>.txt  
 
-where \<folder\> is either train or test[^1].  
+where \<folder\> is either train or test¹.  
 
 The content of the files is as follows.  
 
@@ -145,4 +145,5 @@ The resulting data frame **tidy_dataset** is written to disk through
 * The subject index in column 2.  
 * Next 79 columns are the average of the features in X_\<folder\>.txt whose name contains "mean" or "std", grouped by activity and subject.  
 
-[^1]:The sub-folders "Inertial Signals" are not meaningful for this assignment, as noted in https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
+****
+¹:The sub-folders "Inertial Signals" are not meaningful for this assignment, as noted in https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
